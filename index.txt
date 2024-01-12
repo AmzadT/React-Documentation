@@ -1,0 +1,69 @@
+Q.1 --> What is React?
+
+Ans. --> React is a JavaScript library for building user interfaces on the web. It helps in creating interactive and reusable UI components.
+
+
+
+Q.2 --> Who made React?
+
+Ans. --> React was developed by Facebook.
+
+
+
+Q.3 --> What is Babel?
+
+Ans. --> Babel is a JavaScript compiler. It helps in converting modern JavaScript code (ES6 and above) into a version that can run in older browsers.
+
+
+
+Q.4 --> How does Babel convert HTML code in React into valid code?
+
+Ans. --> Babel primarily converts JavaScript code, not HTML. In React, JSX (a syntax extension for JavaScript) is used to write UI components. Babel translates JSX into regular JavaScript that browsers can understand.
+
+
+
+Q.5 --> What is ReactDOM used for? Write an example?
+
+Ans. --> ReactDOM is a package that helps React work with the DOM (Document Object Model). It is used to render React components into the browser. Example:-
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+var element = <h1>Hello React!</h1>;
+ReactDOM.render(element, document.getElementById('root'));
+
+
+
+Q.6 --> What are the packages that you need to import for React to work with?
+
+Ans. --> You need to import 'react' and 'react-dom' to work with React.
+
+
+
+Q.7 --> How do you add React to a web application?
+
+Ans. --> You add React to a web application by including the React and ReactDOM libraries in your project. You can use tools like Create React App for a quick setup.
+
+
+
+Q.8 --> What is React.createElement?
+
+Ans. --> 'React.createElement' is a function used to create React elements. It takes at least three arguments: the type of the element (like a HTML tag or a React component), properties (or null if none), and the content of the element.
+
+
+
+Q.9 --> What are the three properties that createElement accepts?
+
+Ans. --> 'React.createElement' accepts three arguments:-
+
+(i) --> Element type:- Specifies the type of the element (e.g., 'div' or a React component).
+
+(ii) --> Properties:- An object containing properties for the element.
+
+(iii) --> Children:- The content or child elements of the element.
+
+
+
+Q.10 --> What is the meaning of render and root?
+
+Ans. --> In React, "render" refers to the process of displaying or updating the UI based on the React elements. "Root" usually refers to the root element in the HTML file where React will render its components. The 'ReactDOM.render()' function is used to render a React element into a specified root element in the HTML document.
